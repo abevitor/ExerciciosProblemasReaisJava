@@ -1,4 +1,4 @@
-package POO.List.SemRep;
+package List.SemRep;
 
 import java.util.HashMap;
 import java.util.Map;

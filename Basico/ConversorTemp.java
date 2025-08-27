@@ -1,3 +1,4 @@
+package Basico;
 import java.util.Scanner;
 public class ConversorTemp {
     public static void main(String[] args) {

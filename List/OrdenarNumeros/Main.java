@@ -1,4 +1,4 @@
-package POO.List.OrdenarNumeros;
+package List.OrdenarNumeros;
 
 import java.util.ArrayList;
 import java.util.Collections;

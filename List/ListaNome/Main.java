@@ -1,4 +1,4 @@
-package POO.List.ListaNome;
+package List.ListaNome;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
