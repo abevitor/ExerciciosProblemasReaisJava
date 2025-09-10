@@ -4,13 +4,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Veiculos carro = new Carro();
+        Veiculos moto = new Moto();
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Deseja ligar o: ");
         System.out.println("1- Carro");
         System.out.println("2- Moto");
-        System.out.println("3- Caminhão");
+    
         
        int escolhaNum = scanner.nextInt();
 
@@ -30,13 +31,17 @@ public class Main {
                 break;
 
             case 2:
-                break;
-            
-            case 3:
-                break;
+             System.out.println("Deseja ligar a moto?  TRUE / FALSE");
+            boolean escolhaMoto = scanner.nextBoolean();
 
+            if(escolhaMoto == true){
+                moto.ligar();
+                moto.acelerar();
+                moto.emitirSom();
+
+            }
+                break;
             
-        
             default:
                 break;
         }
